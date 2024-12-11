@@ -14,7 +14,9 @@ const server = http.createServer((req,res)=>{
     res.writeHead(404,{'content-type':'text/plain'});
     res.end("chud gaye guru");
   }
-})
+});
+
+const c = 134;
 
 server.listen(8000,()=>{
   console.log("server listening at 3000 port number")
